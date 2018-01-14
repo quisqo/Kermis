@@ -39,27 +39,32 @@ public class Attractie {
 			case "1":
 				botsauto.aantalTickets();
 				botsauto.omzet();
+				System.out.println("Attractie Botsauto in full swing");
 				break;
 			case "2":
 				hawai.aantalTickets();
 				hawai.omzet();
+				System.out.println("Attractie Hawai in full swing");
 				break;
 			case "3":
 				ladderklimmen.aantalTickets();
 				ladderklimmen.omzet();
+				System.out.println("Attractie Ladderklimmen in full swing");
 				break;
 			case "4":
 				spiegelpaleis.aantalTickets();
 				spiegelpaleis.omzet();
+				System.out.println("Attractie Spiegelpaleis in full swing");
 				break;
 			case "5":
 				spin.aantalTickets();
 				spin.omzet();
-
+				System.out.println("Attractie Spin in full swing");
 				break;
 			case "6":
 				spookhuis.aantalTickets();
 				spookhuis.omzet();
+				System.out.println("Attractie Spookhuis in full swing");
 				break;
 			 case "o":
 				botsauto.omzetOWeergeven();
