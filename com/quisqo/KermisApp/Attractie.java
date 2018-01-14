@@ -10,14 +10,7 @@ public class Attractie {
 	double omzet = entree * aantalTickets;
 	
 
-	public void aantalTickets() {
-		aantalTickets += 1;
-	}
-
-	public void omzet() {
-		omzet = entree * aantalTickets;
-		System.out.println("Omzet is: " + omzet);
-	}
+	
 
 	public static void main(String[] args) {
 
@@ -38,32 +31,32 @@ public class Attractie {
 			switch (keuze) {
 			case "1":
 				botsauto.aantalTickets();
-				botsauto.omzet();
+				botsauto.Omzet();
 				System.out.println("Attractie Botsauto in full swing");
 				break;
 			case "2":
 				hawai.aantalTickets();
-				hawai.omzet();
+				hawai.Omzet();
 				System.out.println("Attractie Hawai in full swing");
 				break;
 			case "3":
 				ladderklimmen.aantalTickets();
-				ladderklimmen.omzet();
+				ladderklimmen.Omzet();
 				System.out.println("Attractie Ladderklimmen in full swing");
 				break;
 			case "4":
 				spiegelpaleis.aantalTickets();
-				spiegelpaleis.omzet();
+				spiegelpaleis.Omzet();
 				System.out.println("Attractie Spiegelpaleis in full swing");
 				break;
 			case "5":
 				spin.aantalTickets();
-				spin.omzet();
+				spin.Omzet();
 				System.out.println("Attractie Spin in full swing");
 				break;
 			case "6":
 				spookhuis.aantalTickets();
-				spookhuis.omzet();
+				spookhuis.Omzet();
 				System.out.println("Attractie Spookhuis in full swing");
 				break;
 			 case "o":

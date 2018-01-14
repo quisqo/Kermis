@@ -2,15 +2,17 @@ package com.quisqo.KermisApp;
 
 public class Spiegelpaleis extends Attractie {	
 	double entree= 2.75;
-	int ticket= 20;
+	int aantalTickets= 20;
+	double Omzet = entree * aantalTickets;
 
 
 	public void aantalKWeergeven() {
-		System.out.println("Totaal kaartjes Spiegelpaleis verkocht: "+ aantalTickets);
+		System.out.println("Totaal aantal kaartjes Spiegelpaleis verkocht: "+ aantalTickets);
 	}
 	public void omzetOWeergeven() {
-		System.out.println("Totale omzet Spiegelpaleis: "+ omzet);
+		System.out.println("Totale omzet Spiegelpaleis: "+ Omzet);
 	}
+	
 
 }
 
