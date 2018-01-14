@@ -10,7 +10,14 @@ public class Attractie {
 	double omzet = entree * aantalTickets;
 	
 
-	
+	public void aantalTickets() {
+		aantalTickets += 1;
+	}
+
+	public void Omzet() {
+		omzet = entree * aantalTickets;
+		System.out.println("Omzet is: " + omzet);
+	}
 
 	public static void main(String[] args) {
 
