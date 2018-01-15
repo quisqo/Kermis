@@ -83,9 +83,6 @@ public class Attractie {
 				spookhuis.aantalKWeergeven();
 				break;
 		
-			default:
-				System.out.println("Attractie is defect");
-				break;
 			}
 		}
 
